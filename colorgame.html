@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Colour Game</title>
+    <!-- BOOTSTRAP CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- CSS LINKING -->
+    <link rel="stylesheet" href="colorgame.css">
+
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <h1 ><div>THE GREAT</div><div class="display-1"> <span id="goal_disp">(0, 0, 0) </span></div><div>GUESSING GAME </div></h1>
+
+      <div id="message_bar">
+        <button type="button" id="btn_play" class="btn btn-lg">NEW COLORS</button>
+        <span id="msg_disp"> </span>
+        <button type="button" id="btn_easy" class="btn btn-lg">EASY</button>
+        <button type="button" id="btn_hard" class="btn btn-lg">HARD</button>
+      </div>
+
+      <!-- the squares -->
+      <div id="sqr_cont">
+      <div class="square"> </div>
+      <div class="square"> </div>
+      <div class="square"> </div>
+      <div class="square" name="removable"> </div>
+      <div class="square" name="removable"> </div>
+      <div class="square" name="removable"> </div>
+      </div>
+    </div>
+
+
+    <!-- JS LINKING -->
+    <script type="text/javascript" src="colorgame.js"></script>
+  </body>
+
+</html>

@@ -1,0 +1,64 @@
+body{
+  background-color: #232323;
+  margin: 0;
+  padding: 0;
+}
+h1{
+  color : white;
+  background-color: steelblue;
+  margin: 0;
+  padding: 0;
+}
+div{
+  text-align: center;
+}
+.faded{
+  background-color: #232323;
+}
+#message_bar{
+  background-color: #fff;
+}
+#message_bar button{
+  color : steelblue;
+}
+#msg_disp{
+  font-size: 1.25rem;
+  padding: .5rem 1rem;
+  display: inline-block;
+  width : 20%;
+  color : steelblue;
+}
+.selected{
+  color: white;
+  background: steelblue;
+}
+#sqr_cont{
+  background-color: #232323;
+  max-width : 600px;
+  height:100%;
+  margin: auto;
+}
+.square{
+  width: 30%;
+  margin: 1.66%;
+  padding-bottom: 30%;
+  /* border: 1px solid black; */
+  float: left;
+  border-radius: 25px;
+  transition: all 0.5s;
+  -webkit-transition : all 0.5s;
+  -moz-transition : all 0.5s;
+}
+button{
+  border: none;
+  height: 100%;
+  margin : 0;
+  padding: 0;
+  letter-spacing: 1px;
+  font-family: inherit;
+}
+button:hover{
+  color: #fff;
+  background: steelblue;
+  border: none;
+}
